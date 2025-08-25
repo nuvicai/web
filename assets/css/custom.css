@@ -1,0 +1,24 @@
+:root{
+  --nuvic-bg:#0a2540;
+  --nuvic-accent:#00d4ff;
+  --nuvic-text:#e6f4ff;
+  --nuvic-muted:#7aa6c7;
+}
+
+body.is-preload #header,
+#header, #footer { background: var(--nuvic-bg) !important; }
+
+a, .button.primary { border-color: var(--nuvic-accent) !important; color: var(--nuvic-accent) !important; }
+.button.primary, .button.special { background: var(--nuvic-accent) !important; color:#00131f !important; }
+#footer a{ color: var(--nuvic-accent) !important; }
+
+h1, h2, h3, h4, h5 { color: #ffffff !important; }
+p { color: var(--nuvic-text) !important; }
+.section-title { color:#ffffff !important; }
+
+/* CTA pills */
+.cta { display:inline-block; padding:0.8rem 1.2rem; border-radius:999px; background:var(--nuvic-accent); color:#00131f; text-decoration:none; font-weight:700; }
+.badge { display:inline-block; padding:0.2rem 0.6rem; border:1px solid var(--nuvic-accent); color:var(--nuvic-accent); border-radius:6px; font-size:0.8rem; }
+
+/* Hero overlay tweak */
+#banner:before{ background: linear-gradient(120deg, rgba(10,37,64,.88), rgba(10,37,64,.55)) !important; }
